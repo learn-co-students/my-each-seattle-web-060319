@@ -1,9 +1,9 @@
 require "pry"
-def my_each(collection)
+def my_each(colletcion)
   binding.pry
   i = 0
   while i < collection.length
-    yield array[i]
+    yield collection[i]
     i = i + 1
   end
   collection
